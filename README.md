@@ -1,38 +1,69 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Cookie Stand Admin App - Solution
 
-## Getting Started
+This repository contains the solution for the Cookie Stand Admin app, built using React, Next.js, and styled with Tailwind CSS.
 
-First, run the development server:
+## Author: Anas Alsallak
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+## Overview
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The Cookie Stand Admin app is designed to manage cookie stands and their sales data. It allows users to add new cookie stands, view the sales data of the last created stand, and display a list of all cookie stands.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Features
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+- The main page, `pages/Index.js`, displays a dashboard for managing cookie stands.
+- The `<Head>` component sets the page title to "Cookie Stand Admin."
+- The `<header>` component provides a navigation header with a logo and links.
+- The `<main>` component contains a form for adding new cookie stands and a placeholder component showing the JSON string of the last created cookie stand.
+- The `<footer>` component displays a footer with copyright information.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Installation and Setup
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+To run the project locally, follow these steps:
 
-## Learn More
+1. Clone this repository to your local machine.
+2. Navigate to the project directory:
 
-To learn more about Next.js, take a look at the following resources:
+   ```bash
+   cd cookie-stand-admin
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+3. Install the required dependencies:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+   ```bash
+   npm install
+   ```
 
-## Deploy on Vercel
+4. Start the development server:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+   ```bash
+   npm run dev
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+5. Open your web browser and go to [http://localhost:3000](http://localhost:3000) to view the app.
+
+## Project Structure
+
+The project is structured as follows:
+
+- `pages`: Contains the Next.js pages, including the main page (`Index.js`).
+- `components`: Contains reusable React components used throughout the app.
+- `styles`: Contains the Tailwind CSS configuration file and custom styles.
+
+## Styling with Tailwind CSS
+
+The app is styled using Tailwind CSS utility classes, which provide a quick and efficient way to apply styles to the components. Tailwind CSS is a highly customizable CSS framework, and its configuration can be found in the `tailwind.config.js` file.
+
+## Stretch Goals
+
+In addition to the basic features, the solution includes the following stretch goals:
+
+- Components have been refactored to their own functions and files for better organization.
+- Additional styling has been added to enhance the app's appearance.
+
+## Contributions
+
+Contributions to this project are welcome. If you have any suggestions or improvements, feel free to submit a pull request.
+
+Thank you for checking out the Cookie Stand Admin App solution. If you have any questions or feedback, feel free to reach out.
+
+Happy coding!
